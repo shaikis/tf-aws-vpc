@@ -21,3 +21,8 @@ variable "vpc_contact_tag" {
     type = string
 }
 
+variable "aws_region" {
+    type = string
+    description = "aws_region names like us-west-1,us-east-1..etc"
+    default = "us-east-1"
+}
