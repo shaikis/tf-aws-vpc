@@ -3,7 +3,6 @@ terraform {
     bucket         = "ehtclusters-tio-terraform-state"
     key            = "ehtInfra.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "ehtclusters-tio-vpc-terraform-state-lock-dynamodb"
   }
   required_providers {
     aws = {
