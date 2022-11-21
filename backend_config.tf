@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "ehtclusters-tio-terraform-state"
+    bucket         = "nov5s3"
     key            = "ehtInfra.tfstate"
     region         = "us-east-1"
   }
